@@ -9,8 +9,10 @@ var punishment = function(){
   						"Bow to everyone and apologize sincerely", "Push up for every minute late", 
   						"Jog to ferry pier during lunch and take a selfie"];
    
-   return punishmentArr[Math.round((Math.random()*8))];
+   return punishmentArr[Math.floor((Math.random()*punishmentArr.length))];
 
 }
-
-document.getElementById('thePunisher').innerHTML = punishment();
+function getNewPunishment() {
+	document.getElementById('thePunisher').innerHTML = punishment();
+}
+getNewPunishment();
