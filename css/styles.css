@@ -1,0 +1,7 @@
+html, body, .container-fluid {
+	height:100%;
+}
+
+.jumbotron {
+	height:50%;
+}
