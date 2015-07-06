@@ -23,6 +23,9 @@ var punishment = function(){
     }
 }
 
-console.log("The punishment is: ", punishment());
+var myButton = document.getElementById("punisher");
 
-document.getElementById("punishment").innerHTML=punishment();
+myButton.addEventListener("click", function() {
+    elem = document.getElementById("punishment");
+    elem.innerHTML = punishment();
+})
