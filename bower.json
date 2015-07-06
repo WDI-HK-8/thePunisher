@@ -1,0 +1,21 @@
+{
+  "name": "thePunisher",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kricli/thePunisher",
+  "authors": [
+    "Richard Li <xpp@me.com>"
+  ],
+  "description": "Punishment tool",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
