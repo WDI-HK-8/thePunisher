@@ -1,0 +1,24 @@
+{
+  "name": "thePunisher",
+  "version": "1.0.0",
+  "homepage": "https://github.com/raphaeldieu/thePunisher",
+  "authors": [
+    "raphaeldieu <dieuraphael@gmail.com>"
+  ],
+  "description": "Punishment randomizer",
+  "main": "index.html",
+  "keywords": [
+    "wdi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
