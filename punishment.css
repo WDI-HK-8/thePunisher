@@ -1,0 +1,25 @@
+.banner {
+    background-image: url('http://www.jrmooneyham.com/clock-face-mashup-header.png');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.banner > h1{
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 50px 0 50px 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default {
+	margin:0;
+}
