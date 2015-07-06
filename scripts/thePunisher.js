@@ -24,3 +24,5 @@ var punishment = function(){
 }
 
 console.log("The punishment is: ", punishment());
+
+document.getElementById("punishment").innerHTML=punishment();
