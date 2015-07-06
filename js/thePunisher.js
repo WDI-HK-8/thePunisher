@@ -12,7 +12,7 @@ var punishment = function(){
    return punishmentArr[Math.floor((Math.random()*punishmentArr.length))];
 
 }
-function getNewPunishment() {
+
+document.getElementById('getPunishment').addEventListener("click", function() {
 	document.getElementById('thePunisher').innerHTML = punishment();
-}
-getNewPunishment();
+});
