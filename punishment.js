@@ -20,6 +20,9 @@ var punishment = function(){
     return PunArray[c];
 };
 
-console.log("The punishment is: ", punishment());
+var button = document.getElementById("punisher");
 
-document.write (punishment())
+button.addEventListener("click", function(){
+    var elem = document.getElementById("ready_punish");
+    elem.innerHTML = punishment();
+})
