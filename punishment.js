@@ -14,6 +14,9 @@ var punishment = function(){
     var b = PunArray.length;
     var c = Math.floor((a/(1/b)));
     
+    // Solution
+    // var num = Math.floor(Math.random()*PunArray.length)
+    
     return PunArray[c];
 };
 
