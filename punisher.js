@@ -1,4 +1,4 @@
-var punishments = ["Buy coffee", "Write a blog post", "formal attire", "end conversation: winter is coming", "sing in front of the class", "stand in the corner for one hour", "bow to everyone", "push up x2 for every minute late"]
+var punishments = ["Buy a round of coffee", "Write a blog post", "Wear formal attire", "End every conversation: Winter is Coming", "Sing in front of the class", "Stand in the corner for one hour", "Bow to everyone", "Push up x2 for every minute late"]
 
 var punish = function() {
   return punishments[Math.floor(Math.random() * punishments.length)];

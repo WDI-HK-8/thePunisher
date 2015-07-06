@@ -1,7 +1,23 @@
-
-#jumbo {
-  text-align: center;
+body {
+    background-image: url("sali dali.jpg");
+    background-color: #cccccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
-#jumbo img {
-  margin: auto;
+
+.centerbox {
+	margin: 0px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+#box {
+	background-color: white;
+	max-width: 450px;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid black;
 }
