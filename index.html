@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Punisher</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body onload="Punisher();" style="background-color: lightgrey;">
+	<div class="wrapper" style="text-align: center;">
+		<div class="container" style="background-color: white; height: 400px; margin-top: 10px;">
+			<h1 style="padding-top: 20px;">The punishment is: </h1>
+			<div class="well" style="margin: 50px 30px 30px 30px;">
+				<p id="demo" style="font-size: 20px;"></p>
+			</div>
+			<button class="btn btn-success" onclick="Punisher();" type="submit">Random Punishment</button>
+		</div>
+		
+	</div>
+
+
+<script type="text/javascript">
+	function Punisher() {
+		var x = Math.random() * 9;
+		var ans = "";
+		if(x < 1) {
+			ans = "Buy/make coffee and serve everyone.";
+		}
+		else if(x<2) {
+			ans = "Write a blog post.";
+		}
+		else if(x<3) {
+			ans = "Come to next class in formal attire.";
+		}
+		else if(x<4) {
+			ans = "Sing/dance in front of class.";
+		}
+		else if(x<5) {
+			ans = "Stand in the corner for one hour.";
+		}
+		else if(x<6) {
+			ans = "Bow to everyone and apologize seriously.";
+		}
+		else if(x<7) {
+			ans = "Push up x2 for every min late.";
+		}
+		else if(x<8) {
+			ans = "Jog to ferry pier during lunch and take a selfie.";
+		}
+		else {
+			ans = "End convo with 'lunch is coming' until lunchtime.";
+		}
+		document.getElementById("demo").innerHTML =ans;
+	}
+</script>
+</body>
+</html>
