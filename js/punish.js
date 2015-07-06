@@ -1,5 +1,6 @@
 window.onload = function(){
     alert(punishment());
+
 }
 
 var penalty_list= [
@@ -20,14 +21,11 @@ var punishment = function(){
 }
 
 var foo = document.getElementById("submit_btn");
+var punish = document.getElementById("punish").innerHTML;
 
-
-var btn_set = document.getElementById("punish").innerHTML;
-foo.onlick = function(){
-    btn_set ="The punishment is: "+punishment();
-}
-
-
+foo.onclick = function (){
+    document.getElementById("punish").innerHTML = punishment();
+};
 
 
 
