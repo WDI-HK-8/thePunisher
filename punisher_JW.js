@@ -12,3 +12,6 @@ var punishment = function () {
 
 console.log("The punishment is :", punishment())
 
+var button = document.querySelector("button");
+button.addEventListener("click", changeBg);
+console.log(button);
