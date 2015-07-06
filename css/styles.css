@@ -1,7 +1,58 @@
-html, body, .container-fluid {
-	background-color:black;
+@font-face {
+    font-family: comicfont;
+    src: url(fonts/BADABB__.TTF);
+}
+
+@font-face {
+    font-family: button-comic-font;
+    src: url(fonts/ObelixPro-Broken-cyr.ttf);
+}
+
+html, body {
+	background:url("../img/punisher-background.jpg") no-repeat;
+	background-size:cover;
+	background-color: black;
+}
+
+body {
+
 }
 
 h1 {
 	color:white;
+	font-family:comicfont;
+	font-size:10vw;
+}
+
+
+h2 {
+	color:white;
+	font-size:2vw;
+}
+
+p {
+	color:white;
+	font-size:1.5vw;
+}
+
+footer {
+	vertical-align:bottom;
+}
+
+.shading {
+	background-color:rgba(255,255,255, 0.3);;
+	border-radius:10px;
+}
+
+.btn {
+	font-family:button-comic-font;
+	font-size:1.5vw;
+}
+
+.navbar {
+	background-color:black;
+	border-style:1px solid black;
+}
+.img-responsive {
+	width:25%;
 }
